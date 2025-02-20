@@ -1,0 +1,1 @@
+Added new version of random string with hello

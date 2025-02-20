@@ -4,5 +4,6 @@ import "github.com/google/uuid"
 
 // RandomNumber returns a random number.
 func RandomNumber() string {
-	return uuid.New().String()
+	str := uuid.New().String()
+	return str + "HELLO"
 }
